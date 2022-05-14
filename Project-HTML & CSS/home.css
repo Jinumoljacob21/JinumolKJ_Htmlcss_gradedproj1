@@ -64,9 +64,9 @@ footer{
     text-align: center;
     color: white;
     top: 100%;
-    margin: 0;
+    margin: 0px;
     padding: 10px;
-    width: 100%;
+    width: 99%;
 }
 #dcare,#covidcare{
     margin: 10px;
@@ -101,6 +101,10 @@ footer{
     font-size:1em;
     color: steelblue;
 }
+.pname{
+    font-size: 20px;
+    font-weight: bold;
+}
   
 .button{
     background-color: rgba(83,157,218,0.2);
@@ -126,8 +130,8 @@ h4{
     padding:0px;
     margin-top:0vh;
 }
-h2{
-    font-size:1em;
+h1{
+    font-size:25px;
     padding:0px;
     margin-top:0vh;
 }
@@ -141,7 +145,6 @@ h2{
 #slider figure{
     position: relative;
     width: 500%;
-    /* height: 200px; */
     margin: 0%;
     left: 0%;
     animation: slider 20s infinite;
